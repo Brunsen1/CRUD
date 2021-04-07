@@ -2,7 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://brunsen1.github.io/CRUD",
+  "homepage": "brunsen1.github.io/CRUD",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
@@ -15,7 +15,7 @@
   },
   "scripts": {
     "predeply": "npm run build",
-    "deploy": "gh-pages build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
